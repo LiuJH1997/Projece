@@ -1,0 +1,134 @@
+//主内容
+main{
+    width: 100%;
+    margin: 0 auto;
+}
+.furniture{
+    width: 100%;
+    margin: 30px auto;
+    .furniture_title{
+        width: 360px;
+        height: 30px;
+        margin: 30px auto;
+        background: url("../images/common/sprites.png")center center;
+        background-position: 0px 0px;
+        background-size: cover;
+    }
+    .suite{
+        width: 100%;
+        // height: 700px;
+        border: 1px solid black;
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center; 
+        .carousel{
+            width: 65.5%;
+            height: 390px;
+            // border: 1px solid red;
+            box-sizing: border-box;
+            overflow: hidden;
+            position: relative;
+            .carousel_img{
+                width: 100%;
+                height: inherit;
+                
+                position: relative;
+                img{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    opacity: 0
+                }
+                .show {
+                    opacity: 1
+                }
+            }
+            .idots{
+                width: 300px;
+                height: 10px;
+                position: absolute;
+                bottom: 20px;
+                left: 20px;
+                span{
+                    display: inline-block;
+                    width: 20px;
+                    height: 4px;
+                    background: white;
+                }
+                .on{
+                    background: rgb(143, 238, 148);
+                }
+            }
+
+        }
+
+        .desk{
+            width: 31%;
+            height: 390px;
+            // border: 1px solid red;
+            overflow: hidden;
+            img{
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+            }
+        }
+
+        .tables{
+            margin-top: 40px;
+            width: 31%;
+            height: 805px;
+            overflow: hidden;
+            position: relative;
+            .sub{
+                width: 100%;
+                height: 380px;
+                overflow: hidden;
+            }
+            .tables_bot{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+            
+        }
+        #roll{
+            margin-top: 40px;
+            width: 31%;
+            height: 380px;
+            border: 1px solid rgb(184, 182, 182);
+        }
+        .sell{
+            margin-top: 40px;
+            width: 65%;
+            height: 380px;
+            border: 1px solid rgb(184, 182, 182);
+        }
+    }
+
+}
+.swiper-container{
+    width: 65.5%;
+    height: 390px;
+    border: 1px solid red;
+    .swiper-wrapper{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        .swiper-slide{
+            width: 100%;
+            height: 100%;
+        }
+        .slide1{
+            background: url("../images/index/example_1.jpg") center center;
+        }
+        .slide2{
+            background: url("../images/index/example_2.jpg") center center;
+        }
+        .slide3{
+            background: url("../images/index/example_3.jpg") center center;
+        }
+    }
+}
+

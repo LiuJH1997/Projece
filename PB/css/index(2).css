@@ -1,0 +1,477 @@
+@charset "UTF-8";
+#h-top {
+    width: 1200px;
+    height: 400px;
+    /*border: 1px solid red;*/
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+ #container_list{
+    width: 8400px;
+    height: 400px;
+     /*float: left;*/
+     position: absolute;
+     /*top: 0;*/
+     /*left: 0;*/
+    z-index: 1;
+}
+#container_list img {
+    float: left;
+    width: 1200px;
+    height: 400px;
+
+
+}
+#cri {
+    width: 1200px;
+    height: 100px;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: center;
+
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+#cri pre {
+    /*float: left;*/
+    margin-right: 10px;
+    width: 200px;
+    height: 80px;
+    background: rgba(255,255,255,.5);
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    line-height: 80px;
+
+}
+
+#cri .on {
+    background: rgba(132,175,67,0.54);
+    color: white;
+}
+#prev {
+    width: 80px;
+    height: 87px;
+    background: rgba(0,0,0,.5);
+    background: url("../images/sprites.png");
+    background-position: 0 88px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    z-index: 2;
+}
+#next {
+    width: 80px;
+    height: 87px;
+    background: rgba(0,0,0,.5);
+    background: url("../images/sprites.png");
+    background-position: 0 180px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    z-index: 2;
+}
+ h1 {
+    margin: 30px 0;
+   color: rgba(161,18,25,0.84);
+    font-weight: lighter;
+}
+.focus h1 span {
+    color: black;
+    font-size: 24px;
+}
+
+
+.photo{
+    width: 100%;
+    height: 200px;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.photo .box{
+    width: 180px;
+    overflow: hidden;
+    position: relative;
+    transition: all .5s linear;
+}
+.photo .box:first-child{
+    width: 630px;
+}
+.photo .box img{
+    width: 630px;
+    height: 100%;
+    vertical-align: middle;
+}
+.photo:hover .box{
+    width: 180px;
+}
+.photo .box:hover{
+    width: 630px;
+}
+.photo .box:first-child .limask{
+    opacity: 0;
+}
+.photo .limask{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    transition: all .25s linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.photo:hover .box .limask{
+    opacity: 1;
+}
+.photo .box:hover .limask{
+    opacity: 0;
+}
+.font{
+    width: 285px;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: all .25s linear;
+}
+.font h4{
+    font-size: 18px;
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+.box .font p{
+    opacity: 0;
+}
+.box:hover p{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+/**/
+.love {
+    width: 100%;
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+}
+.love .t2{
+    width: 260px;
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+}
+.love .t2 img {
+    width: 260px;
+    height: 260px;
+    background-size: cover;
+    transition: all .25s linear;
+}
+.love .t2:hover img{
+    transform: scale(1.2,1.2);
+}
+.love .t2 .mask {
+    width: 100%;
+    height: 60px;
+    background: rgba(87,191,21,.25);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    transition: all .25s linear;
+}
+.love .t2 .mask p {
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    font-size: 18px;
+}
+.love .t2:hover .mask {
+    background: rgba(87,191,21,.55);
+}
+.love .t3 {
+    width: 350px;
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+}
+.love .t3 img{
+    width: 350px;
+    height: 260px;
+    background-size: cover;
+    transition: all .25s linear;
+}
+.love .t3:hover img{
+    transform: scale(1.2,1.2);
+}
+.love .t3 .mask {
+    width: 100%;
+    height: 60px;
+    background: rgba(87,191,21,.25);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all .25s linear;
+}
+.love .t3 .mask p {
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    font-size: 18px;
+}
+.love .t3:hover .mask {
+    background: rgba(87,191,21,.55);
+}
+.par {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.par .par-box {
+    margin-bottom: 40px;
+    width: 570px;
+    height: 240px;
+
+    display: flex;
+}
+.par .par-box .par-img {
+    width: 250px;
+    height: 240px;
+    overflow: hidden;
+
+}
+.par .par-box .par-img img{
+    width: 250px;
+    height: 240px;
+    background-size: cover;
+    transition: all .25s linear;
+}
+
+.par .par-box .par-img:hover img {
+    transform: scale(1.1,1.1);
+}
+
+.par .par-box .par-text {
+    width: 320px;
+    height: 240px;
+    background: #f8f8f8;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 20px 0 0 20px;
+    line-height: 30px;
+
+}
+.par .par-box .par-text .w {
+    font-size: 18px;
+    font-weight: bold;
+}
+.par .par-box .par-text p {
+    font-weight: 14px;
+    font-weight: lighter;
+}
+.par .par-box .par-text .ww {
+    margin-top: 20px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+
+    font-size: 20px;
+    color: white;
+    background: red;
+}
+/*排行榜*/
+.tit {
+    width: 100%;
+    height: 100px;
+}
+.tit h2 {
+    margin: 30px 0;
+    font-size: 30px;
+    font-weight: lighter;
+    color: black;
+}
+.tit .mo img {
+    margin: 40px 0;
+}
+.ranking {
+    width: 100%;
+
+}
+.ranking-left {
+    width: 49%;
+
+}
+.ranking-left .zs {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    position: relative;
+}
+.ranking-left .zs h3 {
+    font-size: 20px;
+    margin-right: 40px;
+
+    transition: all .15s linear;
+}
+.ranking-left .zs p{
+   font-size: 14px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.ranking-left .zs h3:hover {
+    color: rgba(161,18,25,0.84);
+}
+.tt {
+    margin-bottom: 60px;
+}
+.ran .ran-line {
+    width: 100%;
+    height: 40px;
+    background: #f6f6f6;
+    display: flex;
+    line-height: 40px;
+}
+.ran .ran-line .text1 {
+    width: 280px;
+    height: 40px;
+
+}
+.ran .ran-line .text1 p {
+    text-align: center;
+    font-size: 20px;
+
+}
+.ran .ran-line .text2 {
+    width: 160px;
+    height: 40px;
+
+}
+.ran .ran-line .text2 p {
+    text-align: center;
+    font-size: 20px;
+
+}
+.ran .ran-box {
+    width: 100%;
+    height: 240px;
+    background: repeating-linear-gradient(transparent 0,transparent 79px,#b8b8b8 80px);
+}
+.ran .ran-box span {
+    display: inline-block;
+    line-height: 80px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.ran .ran-box span .y1 {
+    width: 60px;
+    height: 80px;
+    font-size: 30px;
+    color: red;
+
+}
+.ran .ran-box span .y2 {
+    width: 200px;
+    height: 80px;
+}
+.ran .ran-box span .y3 {
+    width: 140px;
+
+}
+.ran .ran-box span .y4 {
+    width: 160px;
+
+}
+
+.ranking-right {
+    width: 48%;
+    height: 600px;
+    box-sizing: border-box;
+}
+.r-tit {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+}
+.r-tit h2 {
+    font-size: 30px;
+    font-weight: lighter;
+
+}
+.r-tit h2 span {
+    color: red;
+}
+.ranking-right .phone{
+    width: 100%;
+    height: 300px;
+    box-sizing: border-box;
+
+    overflow: hidden;
+    position: relative;
+}
+.ranking-right .phone img {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    transition: all .25s linear;
+}
+.ranking-right .phone .msk {
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to top, rgba(0,0,0,.9) 0,rgba(0,0,0,.35) 50px,rgba(0,0,0,0) 80px);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.ranking-right .phone p {
+    color: white;
+    line-height: 80px;
+    font-size: 20px;
+}
+.ranking-right .phone:hover img {
+    transform: scale(1.1,1.1);
+}
+.ranking-right .xs {
+    margin: 30px 0;
+    width: 100%;
+
+}
+.ranking-right .xs p {
+    font-size: 20px;
+    line-height: 40px;
+    font-family: "宋体";
+    color: #737373;
+}
+.ranking-right .xs p a {
+    color: red;
+}
+.ranking-right .xs p a:hover {
+    text-decoration: underline;
+}
+.ayi {
+    /*width: 100%;*/
+    /*height: 400px;*/
+
+}
+.ayi img {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}

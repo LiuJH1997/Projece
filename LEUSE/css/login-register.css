@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+main {
+    width: 100%;
+    height: 100%;
+    background: url("../images/bgo.png") center center;
+    background-size: cover;
+}
+.log {
+    padding-top: 100px;
+}
+.login-box {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid rgba(67,118,145,0.84);
+}
+#hear {
+    border-bottom: 2px solid rgba(67,118,145,0.84);
+}
+.title {
+    line-height: 100px;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 10px;
+}
+[name="myForm"] {
+    padding-top: 20px;
+    text-align: center;
+}
+[name="myForm"] .input-box {
+    width: 100%;
+    height: 40px;
+    margin: 20px auto;
+    position: relative;
+}
+[name="myForm"] .input-box::after {
+    display: none;
+    text-align: center;
+    content: attr(data-msg);
+    font-size: 12px;
+    color: red;
+    position: absolute;
+    top: 100%;
+    left: 110px;
+}
+[name="myForm"] .error::after {
+    display: block !important;
+}
+[name = "myForm"] input {
+   padding-left: 10px;
+    width: 300px;
+    height: 40px;
+    border: 1px solid rgba(67,118,145,0.84);
+    box-sizing: border-box;
+}
+[name="myForm"] input:focus {
+    border-color: cornflowerblue;
+}
+[name="myForm"] .info-box {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.remember-box .remember {
+    width: 14px;
+    height: 14px;
+    font-size: 12px;
+}
+.go-register {
+    font-size: 14px;
+    color: black;
+}
+.go-register:hover {
+    color: rgba(83,146,180,0.84);
+}
+.go-login {
+    font-size: 14px;
+    color: black;
+}
+.go-login:hover {
+    color: rgba(83,146,180,0.84);
+}
+[name="myForm"] .login-register-btn {
+    display: block;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    margin: 20px auto;
+    background: rgba(67,118,145,0.84);
+    color: white;
+    font-size: 20px;
+    letter-spacing: 8px;
+    cursor: pointer;
+    -webkit-transition: background .25s linear;
+    -moz-transition: background .25s linear;
+    -ms-transition: background .25s linear;
+    -o-transition: background .25s linear;
+    transition: background .25s linear;
+}
+[name="myForm"] .login-register-btn:hover {
+    background: rgba(83,146,180,0.84);
+}
+[name="myForm"] .hidden {
+    display: none !important;
+}
+/*验证码*/
+.auth {
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+}
+.auth .verify {
+    width: 48%;
+    height: 30px;
+}
+.validate-code {
+    margin-left: 16px;
+    display: inline-block;
+    width: 46%;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 4px;
+    line-height: 30px;
+    text-align: center;
+    background: linear-gradient(to bottom right,white,rgba(67,118,145,0.64));
+    cursor: pointer;
+}
+.auth {
+    position: relative;
+}
+.auth::after {
+    content: "验证码不匹配！";
+    display: none;
+    width: 100%;
+    line-height: 30px;
+    font-size: 12px;
+    color: red;
+    position: absolute;
+    left: -109px;
+    top: -23px;
+}
+
+.auth.error::after {
+    display: block;
+}
+
+

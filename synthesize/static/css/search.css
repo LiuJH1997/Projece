@@ -1,0 +1,43 @@
+@charset 'utf-8';
+.search-box{
+    width: 70%;
+   
+    margin: 16px auto ;
+}
+.hot h3{
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 14px;
+}
+.hot-search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.hot-box{
+    margin: 10px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+.one{
+    width: 50px;
+    height: 30px;
+    border: 1px solid rgb(92, 91, 91);
+}
+.two{
+    width: 70px;
+    height: 30px;
+    border: 1px solid rgb(92, 91, 91);
+}
+.three{
+    width: 70px;
+    height: 30px;
+    border: 1px solid rgb(92, 91, 91);
+}
+.four{
+    width: 80px;
+    height: 30px;
+    border: 1px solid rgb(92, 91, 91);
+}

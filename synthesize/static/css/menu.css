@@ -1,0 +1,77 @@
+@charset 'utf-8';
+.content{
+    height: calc(100% - 50px -60px) !important;
+    overflow: scroll;
+}
+.lunbo{
+    width: 100%;
+    height: 240px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.demo-carousel{
+    width: 100%;
+    height: 220px;
+}
+.demo-carousel img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.recommend{
+    margin: 10px 0 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    width: 90px;
+    letter-spacing: 2px;
+
+    font-weight: normal;
+    color: black;
+    border-bottom: 1px solid rgb(27, 123, 212);
+}
+.furits-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.furits-menu .item{
+    text-align: center;
+    margin: 10px 0;
+    width: 48%;
+    height: 280px;
+    border: 1px solid rgb(172, 171, 171);
+}
+
+.furite-img{
+    width: 100%;
+    height: 200px;
+
+}
+.furite-img img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.price{
+    margin: 10px 0 0 6px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(199, 44, 44);
+}
+.meail{
+    display: inline-block;
+    margin-left: 4px;
+    background: rgb(199, 44, 44);
+    color: white;
+    font-size: 10px; 
+    font-weight: normal;
+}
+.furits-menu .item .title{
+    font-size: 12px;
+    margin: 6px 4px;
+    color: black;
+    
+}

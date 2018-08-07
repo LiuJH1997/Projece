@@ -1,0 +1,4 @@
+
+exports.config = {
+    main: './src/js/hcx_index.js'
+}

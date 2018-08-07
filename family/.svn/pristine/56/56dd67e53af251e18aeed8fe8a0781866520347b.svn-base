@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>户里·家</title>
+</head>
+<body>
+    <header id="header">
+        <div class="wrap1200">
+            <div class="banner-wrap">
+                <div class="contact-us"><a href="#"></a></div>
+                <div class="title-logo">
+                    <a href="#"></a>
+                    <form action="javascript:;" name="citySelector">
+                        <select class="selector">
+                            <option value="0">成都地区</option>
+                            <option value="1">北京地区</option>
+                            <option value="2">上海地区</option>
+                            <option value="3">深圳地区</option>
+                            <option value="4">其他地区</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="carts-login">
+                    <a href="./pages/ljh_login.html" class="login"></a>
+                    <i class="partition"></i>
+                    <a href="#" class="carts"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main id="content">
+        <div class="wrap1200">
+                <div class="furniture">
+                    <div class="furniture_title">
+    
+                    </div>
+                    <div class="suite">
+                        <!-- 轮播 -->
+                        <!-- <div class="carousel">
+                            <div class="carousel-img">
+                                <img class="show" src="./images/index/example_1.jpg" alt="">
+                                <img src="./images/index/example_2.jpg" alt="">
+                                <img src="./images/index/example_3.jpg" alt="">
+                                <img src="./images/index/example_4.jpg" alt="">
+                            </div>
+                            <div class="idots">
+                                <span class="on"></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        -->
+    
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide slide1">   
+                                </div>
+                                <div class="swiper-slide slide2">    
+                                </div>
+                                <div class="swiper-slide slide3">   
+                                </div>
+                            </div>
+                            <!-- 如果需要分页器 -->
+                            <div class="swiper-pagination"></div>
+            
+                            <!-- 如果需要导航按钮 -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                            
+                        </div>
+    
+    
+    
+    
+    
+                        <div class="desk">
+                            <img src="./images/index/t1.jpg" alt="图片加载失败">
+                        </div>
+                        <div class="tables">
+                            <div class="tables_top sub">
+                                <img src="./images/index/t1.jpg" alt="">
+                            </div>
+                            <div class="tables_bot sub">
+                                <img src="./images/index/t1.jpg" alt="">
+                            </div>     
+                        </div>
+                        <div class="tables">
+                            <img src="./images/index/t2.jpg" alt="">
+                        </div>
+                        <div class="tables">
+                            <div class="tables_top sub">
+                                <img src="./images/index/t1.jpg" alt="">
+                            </div>
+                            <div class="tables_bot sub">
+                                <img src="./images/index/t1.jpg" alt="">
+                            </div>     
+                        </div>
+    
+                        <!-- 滚动 -->
+                            <div id="roll">
+    
+                            </div>
+                            <div class="sell">
+                                <img src="./images/index/t4.jpgt.jpg" alt="">
+                            </div>
+    
+                    </div>
+                </div>
+                
+        </div>
+    </main>
+    <footer id="footer"></footer>
+</body>
+</html>

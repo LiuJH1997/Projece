@@ -1,0 +1,126 @@
+@charset "UTF-8";
+.bg{
+    width: 100%;
+    height: 300px;
+    background: url("../images/99bannerd1.jpg")center center;
+    background-size: cover;
+}
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+/*本周推荐的样式实现*/
+.recommend {
+    margin: 40px 0;
+    width: 100%;
+}
+.recommend .title {
+    margin: 40px 0 ;
+}
+h2 {
+    font-size: 22px;
+    font-weight: lighter;
+    border-left: 3px solid #acfa1e;
+}
+.titlt-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titlt-box .box {
+    width: 500px;
+}
+.titlt-box .box .img {
+    width: 500px;
+    height: 280px;
+}
+.titlt-box .box .img img{
+    width: 500px;
+    height: 280px;
+    background-size: cover;
+}
+.titlt-box .text-box {
+    width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+.titlt-box .text-box .tit {
+    font-size: 20px;
+    color: black;
+}
+.titlt-box  .text-box .ti {
+    font-size: 12px;
+    color: #565656;
+    line-height: 26px;
+}
+.titlt-box  .text-box .ti span {
+    color: #fc1111;
+}
+.titlt-box .text-box .btu {
+    width: 100px;
+    height: 40px;
+    background: #fc5613;
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+}
+.titlt-box .text-box .btu .my {
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
+
+/**/
+.sub-box {
+    display: flex;
+    justify-content: space-around;
+}
+.titlt-box1 {
+    width: 220px;
+    /*border: 1px solid orange;*/
+}
+.titlt-box1 .box1 {
+    width: 220px;
+    height: 120px;
+    /*border: 1px solid greenyellow;*/
+}
+.titlt-box1 .box1 img {
+    width: 220px;
+    height: 120px;
+    background-size: cover;
+}
+.titlt-box1 .t {
+    padding: 20px 30px;
+    width: 220px;
+    /*height: 200px;*/
+    /*border: 1px solid green;*/
+   box-sizing: border-box;
+    text-align: left;
+}
+.titlt-box1 .t .bt {
+    font-size: 16px;
+}
+.titlt-box1 .t .ti1 {
+    font-size: 12px;
+    color: #575757;
+    line-height: 20px;
+}
+.titlt-box1 .t .ti1 span {
+    color: #ff2910;
+}
+.titlt-box1 .t .btn1 {
+    margin: 10px auto;
+    width: 80px;
+    height: 26px;
+    background: #fc5613;
+}
+.titlt-box1 .t .btn1 .my1 {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    line-height: 26px;
+
+}

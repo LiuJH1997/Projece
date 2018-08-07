@@ -1,0 +1,123 @@
+@charset "UTF-8";
+.backG {
+    width: 100%;
+    background: rgba(245,245,245,0.84);
+}
+.wid {
+    width: 1200px;
+    padding: 40px 0;
+
+    /*background: white;*/
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+}
+.wid_left {
+    width: 68%;
+    background: white;
+    /*height: 700px;*/
+    /*border: 1px solid green;*/
+}
+.wid_left .about_title {
+    display: block;
+   padding: 20px 0 10px 20px;
+    font-size: 14px;
+    color: rgba(132,175,67,0.94);
+}
+.wid_left .about_title:hover{
+    color: rgba(132,175,67,0.64)
+}
+hr {
+    margin-left: 20px;
+    width: 80%;
+    text-align: center;
+    color: rgba(152,152,152,0.84);
+}
+h2 {
+    padding: 20px 0 10px 20px;
+    font-size: 22px;
+    font-weight: lighter;
+    color: rgba(99,99,99,0.84);
+}
+.structure {
+    width: 750px;
+    height: 690px;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+}
+.structure img {
+    width: 751px;
+    height: 691px;
+    background-size: cover;
+
+}
+.wid_right {
+    width: 26%;
+    background: white;
+
+    /*border: 1px solid orange;*/
+}
+.about {
+    width: 100%;
+    height: 800px;
+    /*border: 1px solid green;*/
+}
+.about ul li {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    padding-left: 20px;
+    border-bottom: 1px solid rgba(238,238,238,0.84);
+    box-sizing: border-box;
+}
+.about ul li:first-child {
+    background: orange;
+    color: white;
+    text-align: center;
+    padding-left: 0;
+}
+.about ul li .sub {
+    font-size: 14px;
+    color: rgba(132,175,67,0.84);
+    padding-left: 30px;
+}
+.about ul li:not(:first-child):hover{
+    background: rgba(246,254,235,0.84);
+}
+
+/*联系我们*/
+.rel_box{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+.rel {
+    width: 100%;
+    background: white;
+    /*border: 1px solid red;*/
+    /*padding-bottom: 30px;*/
+}
+.map {
+    margin: 20px auto;
+    width: 100%;
+    height: 600px;
+}
+.instructions {
+    color: rgba(132,175,67,0.84);
+    font-size: 20px;
+    padding-top: 16px;
+}
+.car {
+    padding: 10px 0 20px 20px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+
+
+}
+
+
+
+
+
+

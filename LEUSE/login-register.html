@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BMOB - LOGIN</title>
+    <link rel="stylesheet" href="./css/normalized.css">
+    <link rel="stylesheet" href="./plugin/LHYAlertView.css">
+    <link rel="stylesheet" href="./css/login-register.css">
+    <link rel="shortcut icon" href="./bitbug_favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    <main>
+        <div class="log">
+            <div class="login-box">
+                <div id="hear">
+                    <h1 class="title">LOGIN</h1>
+                </div>
+                <form action="#" name="myForm">
+                    <section class="input-box" data-msg="用户名不合法，4-16位（字母、数字、下划线、）">
+                        <input type="text" class="username" placeholder="请输入用户名">
+                    </section>
+                    <section class="input-box" data-msg="密码不合法，4-16位（字母、数字、下划线、）">
+                        <input type="password" class="password" placeholder="请输入密码">
+                    </section>
+                    <section class="input-box register hidden" data-msg="邮箱不合法">
+                        <input type="email" class="email" placeholder="请输入邮箱">
+                    </section>
+
+                    <div class="auth register">
+                        <input  type="text" class="verify"  placeholder="请输入验证码">
+                        <section  onselectstart="return false" class="validate-code"></section>
+                    </div>
+
+                    <div class="info-box clearFix">
+                        <div class="remember-box login fl">
+                            <input type="checkbox" class="remember">
+                            <span>记住密码？</span>
+                        </div>
+                        <a href="#" class="go-register login fr">没有账号？ 点击注册</a>
+                        <a href="#" class="go-login register hidden fl">返回登陆</a>
+                    </div>
+                    <button class="login-register-btn" type="button">登陆</button>
+                </form>
+            </div>
+        </div>
+</main>
+    <script src="plugin/jquery-3.3.1.min.js"></script>
+    <script src="plugin/bmob-min.js"></script>
+    <script src="./plugin/LHYAlertView.js"></script>
+    <script src="./js/tools.js"></script>
+    <script src="js/verify.js"></script>
+    <script src="./js/login-register.js"></script>
+</body>
+</html>

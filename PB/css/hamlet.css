@@ -1,0 +1,169 @@
+@charset "UTF-8";
+.main {
+    width: 100%;
+
+}
+.img {
+    width: 100%;
+    height: 400px;
+    background: url("../images/banner.jpg")center center;
+    background-size: cover;
+}
+.text_logo {
+    margin: 40px auto;
+    width: 500px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+}
+.text_logo .textb {
+    margin: 0 20px;
+}
+.text_logo .textb h1 {
+    font-size: 48px;
+    color: #614633;
+
+}
+.text_logo .r {
+    height: 70px;
+    border-right: 2px solid  #614633;
+}
+.text_logo .textb p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #614633;
+}
+.text_logo .textb .zz{
+    letter-spacing: 14px;
+}
+.text_d {
+    width:80% ;
+    height: 100px;
+    margin: 0 auto;
+}
+.text_d p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #614633;
+    line-height: 40px;
+    text-indent: 2em;
+}
+.title {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.text_box {
+    //width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.text_box .mag {
+    margin-top: 4px;
+}
+.text_box span {
+    margin-top: 2px;
+    font-size: 22px;
+    color: #614633;
+    padding-left: 10px;
+}
+.png {
+    width: 100%;
+    height: 400px;
+    background: url("../images/image.png")center center;
+    background-size: cover;
+    background-position: -116px 0px;
+   margin: 20px auto;
+}
+.bg {
+    width: 540px;
+    height: 90px;
+    margin: 20px auto;
+    background: url("../images/title_bg_1.png");
+    background-size: cover;
+}
+.bg p {
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    line-height: 90px;
+}
+/*为村的样式设置*/
+.village {
+    width: 100%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.village .text1 .b1{
+    width: 155px;
+    height: 46px;
+    background: url("../images/title_bg_1.png")center center;
+    color: white;
+    font-size: 28px;
+    letter-spacing: 4px;
+    text-align: center;
+    line-height: 46px;
+}
+.village .t1{
+   margin-top: 80px;
+}
+.village .text1 {
+    margin-top: 80px;
+}
+.village .ler {
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+}
+.village .text2 {
+    margin-top: 80px;
+    text-align: right;
+}
+.village .text2 .b2{
+    width: 155px;
+    height: 46px;
+    background: url("../images/title_bg_1.png")center center;
+    color: white;
+    font-size: 28px;
+    letter-spacing: 4px;
+    text-align: center;
+    line-height: 46px;
+
+    position: absolute;
+    top: 60px;
+    left:10%;
+
+
+}
+.village .text2 .we {
+    margin:50px 50px 0 10px;
+}
+.village .text3 .b3{
+    width: 155px;
+    height: 46px;
+    background: url("../images/title_bg_1.png")center center;
+    color: white;
+    font-size: 28px;
+    letter-spacing: 4px;
+    text-align: center;
+    line-height: 46px;
+
+    position: absolute;
+    top: 80px;
+    left:45%;
+
+
+}
+.village .text3 .we {
+    margin:140px 0px 0 50px;
+}
+.village .text1 .we {
+    font-size: 18px;
+    color: black;
+
+}
